@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=7" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="todo App List">
+    <meta name="Author" content="Forhadul Islam">
+    <title>Todo App</title>
+
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <!-- fontwwsam link  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <!-- css link  -->
+    <link rel="stylesheet" href="./style/app.css" />
+</head>
+
+<body>
+    <div class="todo__app">
+        <div class="todo__app__container">
+            <h1 class="todo__app__container__heading">To Do List</h1>
+            <form class="todo__app__container__from">
+                <input type="text" placeholder="What do you want to do?" />
+                <button><strong>ADD</strong></button>
+            </form>
+        </div>
+        <div class="todo__app__todo__list__container">
+            <div class="todo__app__todo__list__container__list">
+                <ul></ul>
+            </div>
+            <div class="todo__app__todo__list__container__clear__btn" id="clear">clear</div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
