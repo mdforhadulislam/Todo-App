@@ -49,7 +49,7 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  margin: 20vh;
+  margin: 20vh auto;
 }
 
 .todo__app__container {
